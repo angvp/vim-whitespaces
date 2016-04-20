@@ -10,3 +10,8 @@ Add this line between `plug#begin` and `plug#eng` in your `.vimrc`  then restart
 ### via Pathogen
 
 ```git clone https://github.com/umutcoskun/vim-whitespaces ~/.vim/bundle/vim-whitespaces```
+
+## Options
+Remove whitespaces on leave insert mode.
+
+```let whitespaces_autostrip = 1```
